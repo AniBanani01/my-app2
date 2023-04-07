@@ -1,0 +1,33 @@
+/* HEADER  */
+header {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+   background-color: #393F43;
+
+   position: sticky;
+   top: 0;
+   z-index: 10;
+
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+header nav div {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    height: 50px;
+}
+
+
+header div>*{
+    text-decoration: none;
+    color:  #FFFFFF;
+    font-size: 24px;
+    margin: auto;
+}
